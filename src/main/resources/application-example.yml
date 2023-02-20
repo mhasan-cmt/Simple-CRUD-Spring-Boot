@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-react
-    username: root
-    password: Shafin*71
+    url: jdbc:mysql://localhost:{PORT}/{DB_NAME}
+    username: USERNAME
+    password: PASSWORD
   jpa:
     show-sql: true
     hibernate:
